@@ -1,0 +1,184 @@
+body {
+  width: 250px;
+  margin: 0;
+  padding: 12px;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: #ffffff;
+  color: #1a1a1a;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header h1 {
+  margin: 0 0 9px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.1px;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.section + .section {
+  margin-top: 12px;
+}
+
+.section-label {
+  margin: 0 0 5px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: #8a8a8a;
+  text-transform: uppercase;
+}
+
+.tailwind-section {
+  padding: 10px;
+  background: #fafafa;
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+}
+
+.tailwind-section .tools {
+  gap: 5px;
+}
+
+.pro-section {
+  padding: 8px;
+  background: linear-gradient(135deg, #fafaff, #f7f8ff);
+  border: 1px solid #dddff5;
+  border-radius: 8px;
+}
+
+.pro-section .section-label {
+  color: #5b5fc7;
+}
+
+.section-description {
+  margin: -1px 0 7px;
+  font-size: 11px;
+  line-height: 1.4;
+  color: #70738f;
+}
+
+.btn {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 7px 0;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: inherit;
+  color: #ffffff;
+  background: #1a1a1a;
+  border: 1px solid #1a1a1a;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.btn:hover {
+  background: #333333;
+  border-color: #333333;
+}
+
+.btn.btn-secondary {
+  background: #ffffff;
+  color: #1a1a1a;
+  border: 1px solid #e0e0e0;
+}
+
+.btn.btn-secondary:hover {
+  background: #f7f7f7;
+  border-color: #d8d8d8;
+}
+
+.btn.active,
+.btn.btn-secondary.active {
+  background: #ffffff;
+  color: #b91c1c;
+  border: 1px solid #e0e0e0;
+}
+
+.btn.active:hover,
+.btn.btn-secondary.active:hover {
+  background: #fafafa;
+}
+
+.btn.error {
+  background: #ffffff;
+  color: #b91c1c;
+  border: 1px solid #f0c0c0;
+  cursor: default;
+}
+
+.btn.copied {
+  background: #f0fdf4;
+  color: #15803d;
+  border-color: #bbf7d0;
+  cursor: default;
+}
+
+.test-view {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 7px 9px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  color: #1a1a1a;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.test-view:hover,
+.test-view:focus-visible {
+  border-color: #bdbdbd;
+}
+
+.hint {
+  margin: 8px 0 0;
+  font-size: 11px;
+  line-height: 1.5;
+  color: #8a8a8a;
+  text-align: center;
+}
+
+.bmc-button {
+  background: linear-gradient(135deg, #FFDD00 0%, #FBB03B 100%);
+  color: #000000;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  text-decoration: none; /* In case you use an <a> tag */
+  margin: 8px auto 0 auto; /* Centers the button */
+  width: fit-content;
+}
+
+.bmc-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(251, 176, 59, 0.3);
+}
+
+.bmc-text {
+  font-size: 11px;
+  color: #6b7280;
+  text-align: center;
+  margin-top: 12px;
+  line-height: 1.4;
+  padding: 0 8px;
+}

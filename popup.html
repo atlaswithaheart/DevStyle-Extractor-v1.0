@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <h1>DevStyle Extractor</h1>
+  </div>
+
+  <section class="section" aria-labelledby="inspect-heading">
+    <h2 id="inspect-heading" class="section-label">Inspect Elements</h2>
+    <div class="tools">
+      <button id="inspect-btn" class="btn">Inspect CSS</button>
+      <button id="font-btn" class="btn btn-secondary">Inspect Typography</button>
+      <button id="html-btn" class="btn btn-secondary">Inspect HTML</button>
+    </div>
+  </section>
+
+  <section class="section tailwind-section" aria-labelledby="tailwind-heading">
+    <h2 id="tailwind-heading" class="section-label">Tailwind Converter</h2>
+    <div class="tools">
+      <select id="tailwind-version" class="test-view" aria-label="Tailwind CSS version">
+        <option value="v4">Tailwind CSS v4</option>
+        <option value="v3">Tailwind CSS v3</option>
+        <option value="v2">Tailwind CSS v2</option>
+      </select>
+      <button id="tailwind-btn" class="btn btn-secondary">Convert to Tailwind</button>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="test-view-heading">
+    <h2 id="test-view-heading" class="section-label">Test View</h2>
+    <div class="tools">
+      <select id="test-view" class="test-view" aria-label="Test view">
+        <option value="none">Test view</option>
+        <option value="mobile">Mobile (390 × 844)</option>
+        <option value="tablet">Tablet (768 × 1024)</option>
+        <option value="desktop">Desktop (1440 × 900)</option>
+      </select>
+    </div>
+  </section>
+
+  <section class="section pro-section" aria-labelledby="pro-heading">
+    
+    <p class="section-description">Page Palette uses the Tailwind version selected above.</p>
+   <div class="tools">
+      <button id="sandbox-btn" class="btn btn-secondary">Export Component Sandbox</button>
+      <button id="palette-btn" class="btn btn-secondary">Generate Page Palette</button>
+    </div>
+  </section>
+
+  <p class="hint">Hover to preview &middot; Click to copy &middot; Esc to exit</p>
+
+
+  <script src="popup.js"></script>
+</body>
+</html>
