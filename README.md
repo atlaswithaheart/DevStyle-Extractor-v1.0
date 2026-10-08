@@ -34,7 +34,7 @@ Since this extension is fully open-source and not hosted on the Chrome Web Store
 1. Click the green **Code** button at the top right of this GitHub page.
 2. Click **Download ZIP** and extract the files to a folder on your computer.
 3. Open Google Chrome (Or your preferred browser) and navigate to `chrome://extensions/`.
-4. Look in the top-right corner of the Extensions page and toggle **Developer mode** to **ON**.
+4. Look in the top-right corner of the Extensions page and toggle **Developer mode** to **ON** (On different browsers it may appear in different positions e.g. bottom-right on Edge).
 5. Click the **Load unpacked** button in the top-left corner.
 6. Select the folder where you extracted the extension files (the folder containing the `manifest.json` file).
 
