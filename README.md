@@ -46,3 +46,7 @@ Since this extension is fully open-source and not hosted on the Chrome Web Store
 * **Hover:** Preview element details automatically.
 * **Click:** Copy the code/styles to your clipboard.
 * **Esc:** Exit inspection mode.
+
+## 📄 License
+
+This project is licensed under the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license. It is free for personal use and learning, but commercial use is strictly prohibited.
