@@ -1,4 +1,5 @@
 # DevStyle Extractor
+## Public Beta (The extension is still being polished, the official release is 10 Oct 9:00AM SAST)
 
 DevStyle Extractor is a completely free, open-source Chrome extension designed to help front-end developers instantly inspect, extract, and convert web elements into usable code. 
 
