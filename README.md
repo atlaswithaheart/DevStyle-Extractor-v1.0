@@ -1,6 +1,8 @@
 # DevStyle Extractor
 
-DevStyle Extractor is a completely free, open-source Chrome extension designed to help front-end developers instantly inspect, extract, and convert web elements into usable code. 
+(Icons WILL not appear because images have not been uploaded)
+
+DevStyle Extractor is a completely free, browser extension designed to help front-end developers instantly inspect, extract, and convert web elements into usable code. 
 
 Whether you need to grab raw CSS, analyze typography, or instantly convert styles into Tailwind CSS utility classes, this extension streamlines your workflow directly from your browser.
 
